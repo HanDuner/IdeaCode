@@ -1,8 +1,9 @@
-package test;
+package Code;
+
 /*
 设计一个方法用于数组的遍历，要求遍历的结果是在一行上的。例如[11, 22, 33, 44, 55]
 */
-public class Seveteen {
+public class Nineteen {
     public static void main(String[] args) {
         int[] arr = {11, 22, 33, 44, 55};
         array(arr);

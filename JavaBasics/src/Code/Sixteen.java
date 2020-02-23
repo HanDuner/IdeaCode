@@ -1,20 +1,21 @@
-package test;
+package Code;
+
 /*
-è®¾è®¡ä¸€ä¸ªæ–¹æ³•
-è¾“å…¥ä¸¤ä¸ªéšæœºæ•°å­—å¹¶ä¸”æ¯”è¾ƒæœ€å¤§å€¼ï¼Œè¾“å‡ºæœ€å¤§å€¼ï¼Œæ•°æ®æ¥è‡ªå‚æ•°
+Éè¼ÆÒ»¸ö·½·¨
+ÊäÈëÁ½¸öËæ»úÊı×Ö²¢ÇÒ±È½Ï×î´óÖµ£¬Êä³ö×î´óÖµ£¬Êı¾İÀ´×Ô²ÎÊı
 */
 import java.util.Random;
 
-public class Fifteen {
+public class Sixteen {
     public static void main(String[] args) {
         Random r = new Random();
 
         int writeNumber1 = r.nextInt(100);
         int writeNumber2 = r.nextInt(200);
-        System.out.println("ç¬¬ä¸€ä¸ªéšæœºæ•°å­—ï¼š" + writeNumber1);
-        System.out.println("ç¬¬äºŒä¸ªéšæœºæ•°å­—ï¼š" + writeNumber2);
+        System.out.println("µÚÒ»¸öËæ»úÊı×Ö£º" + writeNumber1);
+        System.out.println("µÚ¶ş¸öËæ»úÊı×Ö£º" + writeNumber2);
         int flag = maxNumber(writeNumber1, writeNumber2);
-        System.out.println("æœ€å¤§çš„éšæœºæ•°:" + flag);
+        System.out.println("×î´óµÄËæ»úÊı:" + flag);
     }
 
     public static int maxNumber(int writeNumber1, int writeNumber2) {
